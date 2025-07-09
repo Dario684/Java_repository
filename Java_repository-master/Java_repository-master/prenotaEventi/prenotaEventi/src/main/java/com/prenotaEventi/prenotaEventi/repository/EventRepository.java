@@ -1,0 +1,9 @@
+package com.prenotaEventi.prenotaEventi.repository;
+
+
+import com.prenotaEventi.prenotaEventi.model.Evento;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EventRepository extends JpaRepository<Evento, Long> {
+}
+
